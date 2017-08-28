@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-bbbbbb
-<span>Hello</span>
-</body>
-</html>
+@extends('layout.mainlayout')
+@section('content')
+
+fffff
+
+@endsection
