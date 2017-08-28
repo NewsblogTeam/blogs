@@ -10,13 +10,13 @@
 <body>
     <div class="container">
         <div class="header">
-            dddddddd
+            @include('layout.header')
         </div>
         <div class="content">
             @yield('content')
         </div>
         <div class="footer">
-            fffffffff
+            @include('layout.footer')
         </div>
     </div>
 </body>
