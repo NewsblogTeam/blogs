@@ -12,5 +12,7 @@
 */
 
 	Route::get('/', function () {
-		return view('home.index');
-		});
+		return view('layout.mainlayout');
+	});
+
+	Route::get('home', 'users@index');
