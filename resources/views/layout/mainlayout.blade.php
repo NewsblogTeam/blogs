@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="header">
-            @include('layout.header')
+            <!-- @include('layout.header') -->
         </div>
         <div class="content">
             @yield('content')
