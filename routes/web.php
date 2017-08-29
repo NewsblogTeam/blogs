@@ -16,3 +16,4 @@
 	});
 
 	Route::get('home', 'users@index');
+
