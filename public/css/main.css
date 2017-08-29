@@ -13,6 +13,7 @@
   float: left;
 }
 .content-footer .icon {
+    padding-right: 50px;
   float: right;
   line-height: 110px;
   margin-right: 100px;
