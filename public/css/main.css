@@ -27,3 +27,28 @@
   border-color: aqua;
     
 }
+
+/* Content Post*/
+.post-news {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.post-news .row {
+  border-bottom: 1px;
+}
+.post-news .thumb {
+  border-bottom: 1px solid;
+  display: -webkit-inline-box;
+  margin-top: 10px;
+  
+}
+.post-news .thumb .cp-thumb {
+  padding-top: 10px;
+}
+
+.cp-post-content ul li a {
+  text-decoration: none;
+}
+.cp-post-content ul li {
+    list-style-type: none;
+}

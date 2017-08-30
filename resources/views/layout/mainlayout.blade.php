@@ -12,7 +12,11 @@
         <div class="header">
             <!-- @include('layout.header') -->
         </div>
-        <div class="content">
+         <div class="footer">
+         </div>        
+         @include('layout.content')
+
+        <div class="content">       
             @yield('content')
         </div>
         <div class="footer">
