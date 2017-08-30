@@ -10,17 +10,13 @@
 <body>
     <div class="container">
         <div class="header">
-            <!-- @include('layout.header') -->
+            @include('layout.header')
         </div>
-         <div class="footer">
-         </div>        
-         @include('layout.content')
-
         <div class="content">       
             @yield('content')
         </div>
         <div class="footer">
-            @include('layout.footer')
+           @include('layout.footer')
         </div>
     </div>
 </body>
