@@ -8,7 +8,7 @@
     @include('layout.head')
 </head>
 <body>
-    <div class="container">
+    <div class="content-page">
         <div class="header">
             @include('layout.header')
         </div>
