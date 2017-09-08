@@ -99,22 +99,11 @@
 			<div class="load-more">
 				<button class="btn-load" id="">LOAD MOER <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
 			</div>
-			<div class="list-news-sport">
-				<div class="title">
-					<h2><a href=""></a></h2>
-				</div>
-				<div class="content" >
-					<div class="col-md-6">
-						<img class="img-responsive" src="{{asset('public/image/img-bg-blog.jpg')}}">
-					</div>
-					<div class="col-md-6">
-						
-					</div>
-				</div>
-			</div>
 		</div>
 		<div class="col-md-4">
-			<!-- <div class="slider-reco">
+		@for($k=0; $k<2; $k++)
+			<div>
+			<div class="reco">
 				<div class="title-reco">
 					<h2><a href="">POPULAR POSTS</a></h2>
 				</div>
@@ -131,44 +120,31 @@
 						</li>
 					</ul>
 				</div>
-			</div> -->
-			@for($k=0; $k<2; $k++)
-			<div>
-				<div class="reco">
-					<div class="title-reco">
-						<h2><a href="">POPULAR POSTS</a></h2>
-					</div>
-				</div>
-				@for($i=1; $i<5; $i++)
-				<div class="row list-news-old">
-					<div class="img col-md-3">
-						<img class="img-news-old img-responsive" src="{{asset('public/image/thumb')}}<?=$i.'.jpg'?>">
-					</div>
-					<div class="col-md-9">
-						<h2 class="title-news-old">
-							<a href="">Morbi iaculis eros eget urna blandit</a>
-						</h2>
-						<span class="span-icon">
-							<span class="icon lock">
-								<i class="fa fa-clock-o" aria-hidden="true"> May 7, 2016</i>
-							</span>
-							<span class="icon profile">
-								<i class="fa fa-user" aria-hidden="true"> Roy Miller</i>
-							</span>
-							<span class="icon comment">
-								<i class="fa fa-commenting" aria-hidden="true"> 57 Comments</i>
-							</span>
+				<div class="col-md-9">
+					<h2 class="title-news-old">
+						<a href="">Morbi iaculis eros eget urna blandit</a>
+					</h2>
+					<span class="span-icon">
+						<span class="icon lock">
+							<i class="fa fa-clock-o" aria-hidden="true"> May 7, 2016</i>
 						</span>
-					</div>
-				</div>
-				<hr class="style-border-bottom">
-				@endfor
-				<div class="load-more-news-old">
-					<button class="btn-load" id="">LOAD MORE <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+						<span class="icon profile">
+							<i class="fa fa-user" aria-hidden="true"> Roy Miller</i>
+						</span>
+						<span class="icon comment">
+							<i class="fa fa-commenting" aria-hidden="true"> 57 Comments</i>
+						</span>
+					</span>
 				</div>
 			</div>
+			<hr class="style-border-bottom">
 			@endfor
+			<div class="load-more-news-old">
+				<button class="btn-load" id="">LOAD MORE <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+			</div>
+			</div>
+		@endfor
 		</div>
 	</div>
 </div>
-@endsection
+@endsection 
