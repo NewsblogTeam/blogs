@@ -111,7 +111,7 @@
 			@for($i=0; $i<4; $i++)
 			<div class="row list-news-old">
 				<div class="img col-md-3">
-					<img class="img-news-old img-responsive" src="{{asset('public/image/thumb<?=$i?>.jpg')}}">
+					<img class="img-news-old img-responsive" src="{{asset('public/image/thumb')}}<?=$i.'.jpg'?>">
 				</div>
 				<div class="col-md-9">
 					<h2 class="title-news-old">
