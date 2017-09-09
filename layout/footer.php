@@ -12,7 +12,7 @@
 
 </head>
 <body>
-	<div class="footer">
+	<div class="footer">  <!-- Foooter  -->
 	<div class="row">
 		<div class="col-md-6 footer-left">
 			<div class="footer-logo">
@@ -33,6 +33,6 @@
 		</div>
 	</div>
 		
-	</div>
+	</div> <!-- End Footer -->
 </body>
 </html>
