@@ -67,3 +67,145 @@
 		
 	}
 }
+.top-banner-bg1 {
+	background: url(http://html.crunchpress.com/materialmag/images/topbannerbg1.jpg);
+	height: 250px;
+	.inner-title{
+		text-align: center;
+		margin-top: 80px;
+
+		h1 {
+			color: white;
+			font-size: 36px;
+			font-weight: 500;
+		}
+		.breadcrumb{
+			a {
+				color:white;
+			}
+			li {
+				color:white;
+			}
+			margin-top: 25px;
+			background-color: inherit ;
+		}
+
+	}
+
+}
+
+.maincontent {
+	.content {
+		line-height: 50px;
+		    
+			li {
+ button {
+		    	    float: right;
+                   margin-top: 30px;
+                   padding: 10px;
+                   background-color:#32AAE1;
+                   height: 41px;
+                   line-height: 41px;
+                   padding: 0 25px;
+                   border-radius: 2px;
+                   color: white;
+		    }
+				button:hover{
+					color: black;
+					transition: 0.4s;
+				}
+				list-style-type: none;
+			}
+		.input-group {
+
+			.material-input  {
+				textarea{
+					height: 120px;
+					border: none;
+					border-left: 1px solid #CCCCCC;
+				}
+				.input-box {
+					border: none;
+					border-left: 1px solid #CCCCCC;
+					border-radius: 0px;
+
+				}
+
+			}
+			.input-group-addon{
+
+				background-color: inherit ;
+				border: none;
+			}
+			//margin-top: 20px;
+			border-bottom: 1px solid #CCCCCC;
+			padding: 20px 0;
+
+
+
+		}
+	}
+	padding: 50px 0 ;
+}
+.contact-info {
+	ul {
+		li {
+			p{
+				    line-height: 24px;
+   					padding-left: 27px;
+   					 font-size: 14px;
+   					 font-family: 'Roboto', sans-serif;
+			}
+
+		        display: flex;
+			
+			list-style-type: none;
+			
+			padding: 13px 0 17px;
+			color: #888888;
+            border-bottom: 1px solid #cccccc;
+		}
+	}
+}
+
+
+.toggle-map {
+	height: 120px;
+	margin-top:50px;
+	line-height: 120px;
+	text-align: center;
+	background-color:#32AAE1;
+	.btn.btn-primary:after{
+		    content: "\f107";
+    font-family: FontAwesome;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.23);
+    color: #0f0f0f;
+    display: inline-block;
+    margin-left: 20px;
+	}
+	.btn.btn-primary{
+		background-color: inherit;
+    	border: none;
+        i{
+        	    font-size: 40px;
+			    text-shadow: 0 2px 3px rgba(0,0,0,.23);
+			    margin-right: 20px;
+        } 
+	    font-size: 18px;
+	    font-weight: 700;
+	    color: #fff;
+	    text-transform: uppercase;
+	    line-height: 40px;
+	    outline: none;
+	}
+
+} 
+.map {
+	display: none;
+}
