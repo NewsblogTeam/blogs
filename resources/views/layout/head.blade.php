@@ -12,10 +12,11 @@
 <link rel="stylesheet" type="text/css" href="{{asset('public/js/flexslider/flexslider.css')}}">
 <script type="text/javascript" src="{{asset('public/js/flexslider/flexslider.min.js')}}"></script>
 
-<link rel="stylesheet" type="text/css" href="{{asset('public/js/slide/jquery.bxslider.min.css')}}">
-<script type="text/javascript" src="{{asset('public/js/slide/jquery.bxslider.min.js')}}"></script>
+<!-- <link rel="stylesheet" type="text/css" href="{{asset('public/js/jquery.bxslider.min.css')}}"> -->
+<!-- <script type="text/javascript" src="{{asset('public/js/jquery.bxslider.min.js')}}"></script> -->
 
 <!-- style home -->
 <link rel="stylesheet" type="text/css" href="{{asset('public/css/home.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('public/css/style.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('public/css/sports.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('public/css/slide_right.css')}}">

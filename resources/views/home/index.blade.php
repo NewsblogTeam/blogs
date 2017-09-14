@@ -105,10 +105,10 @@
 					<span>Lorem ipsum dolor sit amet, consectetur adipiscing</span>
 					<div style="clear: both"></div>
 				</div>
-				@for($i=0; $i<4; $i++)
+				@for($i=0; $i<2; $i++)
 				<div class="content-blog-sports">
 					<div class="row content" >
-						<div class="img-bg col-md-6">
+						<div class="col-md-6 img-bg ">
 							<img class="img-sports img-responsive" src="{{asset('public/image/sports2.jpg')}}">
 						</div>
 						<div class="col-md-6 abtract">
@@ -161,68 +161,7 @@
 			</div>
 		</div>
 		<div class="col-md-4">
-			<!-- <div class="slider-reco">
-				<div class="title-reco">
-					<h2><a href="">POPULAR POSTS</a></h2>
-				</div>
-				<div class="slider">
-					<ul class="bxslider">
-						<li>
-							<img class="img-responsive" src="{{asset('public/image/img2.jpg')}}" />
-						</li>
-						<li>
-							<img class="img-responsive" src="{{asset('public/image/img2.jpg')}}" />
-						</li>
-						<li>
-							<img class="img-responsive" src="{{asset('public/image/img2.jpg')}}" />
-						</li>
-					</ul>
-				</div>
-			</div> -->
-			<div class="carousel-item">
-				<img src="http://via.placeholder.com/350x150" alt="...">
-				<div class="carousel-caption d-none d-md-block">
-					<h3>.dcfdfsdfsd.</h3>
-					<p>...fsdfsdfsdf</p>
-				</div>
-			</div>
-			@for($k=0; $k<2; $k++)
-			<div>
-				<div class="reco">
-					<div class="title-reco">
-						<h2><a href="">POPULAR POSTS</a></h2>
-					</div>
-				</div>
-				@for($i=1; $i<5; $i++)
-				<div class="row list-news-old">
-					<div class="img col-md-3">
-						<img class="img-news-old img-responsive" src="{{asset('public/image/thumb')}}<?=$i.'.jpg'?>">
-					</div>
-					<div class="col-md-9">
-						<h2 class="title-news-old">
-							<a href="">Morbi iaculis eros eget urna blandit</a>
-						</h2>
-						<span class="span-icon">
-							<span class="icon lock">
-								<i class="fa fa-clock-o" aria-hidden="true"> May 7, 2016</i>
-							</span>
-							<span class="icon profile">
-								<i class="fa fa-user" aria-hidden="true"> Roy Miller</i>
-							</span>
-							<span class="icon comment">
-								<i class="fa fa-commenting" aria-hidden="true"> 57 Comments</i>
-							</span>
-							
-						</span>
-					</div>
-				</div>
-				<hr class="style-border-bottom">
-				@endfor
-				<div class="load-more-news-old">
-					<button class="btn-load" id="">LOAD MORE <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
-				</div>
-			</div>
-			@endfor
+		@include('home.slide_right')
 		</div>
 	</div>
 </div>

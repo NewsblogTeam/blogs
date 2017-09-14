@@ -3,7 +3,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-sm-12">
-		@for($j=0; $j<6; $j++)
+		@for($j=0; $j<8; $j++)
 			<div class="col-md-6 list-blogs-cl1">
 				<div class="container-list-sports">
 					<div class="content">
@@ -38,7 +38,7 @@
 			@endfor
 		</div>
 		<div class="col-md-4 col-sm-8">
-			
+			@include('home.slide_right')
 		</div>
 	</div>
 </div>
