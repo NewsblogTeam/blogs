@@ -6,11 +6,19 @@
 	</div>
 </div>
 <div class="carousel-item">
+	<div class="title">
+		<h2><a href="">POPULAR POSTS</a></h2>
+	</div>
 	<div class="flexslider">
 		<ul class="slides">
 			@for($slide=0; $slide<4; $slide++)
 			<li>
 				<img class="img-responsive" src="{{asset('public/image/sports4.jpg')}}" />
+				<div class="overlay">
+					<p>Sem quis lacinia faucibus, orci ipsum gravida tortor</p>
+					<span>SPORST</span>
+				</div>
+
 			</li>
 			@endfor
 		</ul>
