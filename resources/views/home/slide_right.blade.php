@@ -18,7 +18,6 @@
 					<p>Sem quis lacinia faucibus, orci ipsum gravida tortor</p>
 					<span>SPORST</span>
 				</div>
-
 			</li>
 			@endfor
 		</ul>

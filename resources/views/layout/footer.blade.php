@@ -18,4 +18,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="goto-top">
+		<button id="goto-top" title="Top"><i class="fa fa-angle-double-up"></i></button>
+	</div>
 </div>
