@@ -18,4 +18,8 @@
 	Route::get('home', 'users@index');
 	Route::get('sports','sports@index');
 	Route::get('contacts','contacts@index');
-
+    
+    
+	Route::get('detail', function () {
+		return view('sports.detail');
+	});

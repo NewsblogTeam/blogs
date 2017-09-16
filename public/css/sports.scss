@@ -57,7 +57,232 @@
 					font-size: 16px;
 					padding-top: 20px;
 				}
-			}
+			}  
+		  	
 		}
 	}
 }
+
+   // Css for detail 
+    .post-images {
+		
+			li {
+
+				list-style-type: none;
+			}
+		
+    }   
+
+    .thumb-icon {
+		margin-top: 35px;
+    	.cp-post-share {
+					border-bottom: 1px solid #CCCCCC;
+					border-top: 1px solid #CCCCCC;
+					padding: 10px 0px ;	
+					
+					li {
+						display: inline-block;
+   						margin-right: 7px;
+   						span {
+   							color: #32AAE1;
+   						}
+   						a {
+   							border-radius: 100%;
+   							display: block;
+   							border: 1px solid #cccccc;
+   							width: 35px;
+   							height: 35px;
+   							text-align: center;
+   							font-size: 16px;
+   							color: #888888;
+   							line-height: 32px;
+   						}
+					}
+					    display: block;
+    					list-style: none;
+				}
+
+				.cp-post-tags{
+					border-bottom: 1px solid #CCCCCC;
+					border-top: 1px solid #CCCCCC;
+					padding: 10px 0px ;	
+					 display: block;
+    					list-style: none;
+					li {
+						display: inline-block;
+   						margin-right: 7px;
+   						span {
+   							color: #32AAE1;
+   						}
+   					
+   						a {   						
+   						 						
+   							width: 35px;
+   							margin-right: 7px;
+   							height: 35px;
+   							text-align: center;
+   							font-size: 16px;
+   							color: #888888;
+   							line-height: 32px;
+   							
+   						}
+   						a:after {
+   							content: ",";
+    						margin-right: 5px;
+   						}
+   					}
+
+				}
+}
+
+.cp-author {
+	margin-top: 50px;
+	float: left;
+	position: relative;
+	.cp-author-thumb{
+		width: 8%;
+		top:30px;
+		position: relative;
+		img {
+			border-radius: 100%;
+
+		}
+		float: left;
+		z-index: 99;
+	
+		
+
+	}
+	.cp-author-details{
+		width: 92%;
+		float: right;
+		box-shadow: 0 2px 4px rgba(0,0,0,.23);
+        padding: 27px 30px 20px 55px;
+        border-radius: 2px;
+        position: relative;
+        z-index: 8;
+
+	}
+	.section-title.blue-border {
+		clear: both;
+		margin-top: 25px;
+		border-left : 5px solid;
+		border-right : 1px solid;
+		border-color: #32AAE1;
+		padding: 0px 10px;
+		display: inline-block;
+	}
+}
+
+.cp-comments {
+	margin-top:10px;
+	list-style: none;
+	.date-time{
+		color:#C5C5C5;
+	}
+	.comments {
+		width: 100%;
+	    float: left;
+	    margin-bottom: 35px;
+	    position: relative;
+
+	    .pull-right.replay-comment {
+	    	    border: 1px solid #EBEBEB;
+			    border-radius: 100%;
+			    background-color: #EBEBEB;
+			    text-align: center;
+			    width: 35px;
+			    height: 35px;
+			    line-height: 35px;
+			    color: #999999;
+	    }
+	     .pull-right.replay-comment:hover a {	    	   
+			    color: #23527C;
+			    cursor: pointer !important;
+	    }
+	    .cp-comment-author{
+	    	width: 83px;
+	    	float: left;
+	    	img {
+	    		border-radius: 2px;
+	    		cursor: auto;
+	    	}
+	    }
+	    .cp-comment{
+	    	    position: absolute;
+		        left: 107px;
+		        top: -10px;
+	    	
+	    }
+	}
+}
+				
+
+
+.cp-comments-form {
+	clear: both;
+	.section-title.blue-border{
+			clear: both;
+		margin-top: 25px;
+		border-left : 5px solid;
+		border-right : 1px solid;
+		border-color: #32AAE1;
+		padding: 0px 10px;
+		display: inline-block;
+		width: 100%;
+   	}
+   	.row {
+   		textarea {
+   			    border: 1px solid #ccc;
+			    width: 100%;
+			    float: left;
+			    border-radius: 2px;
+			    font-size: 14px;
+			    padding-left: 15px;
+			    resize: none;
+			    min-height: 180px;
+   		}
+   		.input-group{
+   			width: 100%;
+   			input{
+   				width: 100%;
+   				border-radius: 2px;
+   			}
+   		}
+   		margin-top: 25px;
+   		.material-input input {
+   			margin-bottom: 30px;
+   		}
+   		.btn.btn-submit.waves-effect.waves-button{
+   			    border-radius: 2px;
+			    box-shadow: 0 0 4px rgba(0,0,0,0.13);
+			    color: #fff;
+			    float: right;
+			    font: 400 15px/40px "Roboto",sans-serif;
+			    margin-top: 40px;
+			    padding: 0 25px;
+			    text-transform: uppercase;
+			    background-color:#32AAE1;
+
+
+   		}
+   		.btn.btn-submit.waves-effect.waves-button:hover{
+   			   color: #334852;
+
+   		}
+   		
+   		.material-input.textarea{
+   			    font-family: 'Roboto',sans-serif;
+				height: 120px;
+   		}
+   		.material-input.input{
+   			input {
+   				padding: 8px;
+   			}
+   		}
+   	}
+}				
+
+
+
+			//End css for detail
