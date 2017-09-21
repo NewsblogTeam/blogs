@@ -101,73 +101,67 @@
 			</div>
 			<div class="list-news-sport">
 				<div class="title">
-					<h2><a href=""></a></h2>
+					<h4>SPORTS</h4>
+					<span>Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+					<div style="clear: both"></div>
 				</div>
-				<div class="content" >
-					<div class="col-md-6">
-						<img class="img-responsive" src="{{asset('public/image/img-bg-blog.jpg')}}">
+				@for($i=0; $i<2; $i++)
+				<div class="content-blog-sports">
+					<div class="row content" >
+						<div class="col-md-6 img-bg ">
+							<img class="img-sports img-responsive" src="{{asset('public/image/sports2.jpg')}}">
+						</div>
+						<div class="col-md-6 abtract">
+							<h3><a href="">CURABITUR VEL MAGNA VARIUS, FRINGILLA ANTE AT FRINGILLA LEO.</a></h3>
+							<span>
+								<span class="icon lock">
+									<i class="fa fa-clock-o" aria-hidden="true"> May 7, 2016</i>
+								</span>
+								<span class="icon profile">
+									<i class="fa fa-user" aria-hidden="true"> Roy Miller</i>
+								</span>
+								<span class="icon comment">
+									<i class="fa fa-commenting" aria-hidden="true"> 57 Comments</i>
+								</span>
+								<span class="rating">
+									@for($j=0; $j<5; $j++)
+									<i class="fa fa-star star" aria-hidden="true"></i>
+									@endfor
+								</span>
+							</span>
+							<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non.</p>
+						</div>
 					</div>
-					<div class="col-md-6">
-						
+				</div>
+				@endfor
+			</div>
+			<div class="list-news-sport">
+				<div class="title">
+					<h4>SPORTS</h4>
+					<span>Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+					<div style="clear: both"></div>
+				</div>
+				<div class="content-style-list">
+					<div class="row">
+						@for($i=1; $i<4; $i++)
+						<div class="col-md-4">
+							<div class="img-bg">
+								<img class="img-responsive img-ls" src="{{asset('public/image/ls1.jpg')}}"></img>
+							</div>
+							<div class="abtract">
+								<a href="">Proin id diam in nulla sagittis tempor nec eu ipsum.</a>
+							</div>
+						</div>
+						@endfor
+					</div>
+					<div class="btn-load-more">
+						<a class="load-more" href="">LOAD MORE <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-4">
-			<!-- <div class="slider-reco">
-				<div class="title-reco">
-					<h2><a href="">POPULAR POSTS</a></h2>
-				</div>
-				<div class="slider">
-					<ul class="bxslider">
-						<li>
-							<img class="img-responsive" src="{{asset('public/image/img2.jpg')}}" />
-						</li>
-						<li>
-							<img class="img-responsive" src="{{asset('public/image/img2.jpg')}}" />
-						</li>
-						<li>
-							<img class="img-responsive" src="{{asset('public/image/img2.jpg')}}" />
-						</li>
-					</ul>
-				</div>
-			</div> -->
-			@for($k=0; $k<2; $k++)
-			<div>
-				<div class="reco">
-					<div class="title-reco">
-						<h2><a href="">POPULAR POSTS</a></h2>
-					</div>
-				</div>
-				@for($i=1; $i<5; $i++)
-				<div class="row list-news-old">
-					<div class="img col-md-3">
-						<img class="img-news-old img-responsive" src="{{asset('public/image/thumb')}}<?=$i.'.jpg'?>">
-					</div>
-					<div class="col-md-9">
-						<h2 class="title-news-old">
-							<a href="">Morbi iaculis eros eget urna blandit</a>
-						</h2>
-						<span class="span-icon">
-							<span class="icon lock">
-								<i class="fa fa-clock-o" aria-hidden="true"> May 7, 2016</i>
-							</span>
-							<span class="icon profile">
-								<i class="fa fa-user" aria-hidden="true"> Roy Miller</i>
-							</span>
-							<span class="icon comment">
-								<i class="fa fa-commenting" aria-hidden="true"> 57 Comments</i>
-							</span>
-						</span>
-					</div>
-				</div>
-				<hr class="style-border-bottom">
-				@endfor
-				<div class="load-more-news-old">
-					<button class="btn-load" id="">LOAD MORE <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
-				</div>
-			</div>
-			@endfor
+		@include('home.slide_right')
 		</div>
 	</div>
 </div>

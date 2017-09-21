@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="http://disputebills.com">BlogsNews<span style="color: #fff">24h</span>
+                <a class="navbar-brand" href="http://disputebills.com">BlogsNews
                 </a>
             </div>
             <div id="navbar3" class="navbar-collapse collapse">

@@ -67,6 +67,8 @@
 			</div>
 		</div>
 	</div>
+</div>
+<div class="container">
 	<div class="main-blog-contaner">
 		<div class="col-md-8">
 			<div class="title-head">

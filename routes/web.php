@@ -11,9 +11,7 @@
 |
 */
 
-	Route::get('/', function () {
-		return view('layout.mainlayout');
-	});
+	Route::get('/','users@index');
 
 	Route::get('home', 'users@index');
 	Route::get('sports','sports@index');
@@ -22,4 +20,8 @@
     
 	Route::get('detail', function () {
 		return view('sports.detail');
+	});
+
+	Route::get('admin', function () {
+		return view('admin.layout.mainlayout');
 	});
