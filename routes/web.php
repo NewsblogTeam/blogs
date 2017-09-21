@@ -25,3 +25,8 @@
 	Route::get('admin', function () {
 		return view('admin.layout.mainlayout');
 	});
+
+		Route::get('admin/profile', function () {
+		return view('admin.profile.index');
+	});
+
