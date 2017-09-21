@@ -7,10 +7,10 @@
     <link href="{{asset('public/admin/css/elegant-icons-style.css')}}" rel="stylesheet" />
     <link href="{{asset('public/admin/css/font-awesome.min.css')}}" rel="stylesheet" />    
     <!-- full calendar css-->
-    <link href="assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css')}}" rel="stylesheet" />
-	<link href="assets/fullcalendar/fullcalendar/fullcalendar.css')}}" rel="stylesheet" />
+    <link href="{{asset('public/admin/css/fullcalendar.css')}}" rel="stylesheet" />
+	<link href="{{asset('public/admin/css/fullcalendar.css')}}" rel="stylesheet" />
     <!-- easy pie chart-->
-    <link href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css')}}" rel="stylesheet" type="text/.css')}}" media="screen"/>
+    <link href="asset/jquery-easy-pie-chart/jquery.easy-pie-chart.css')}}" rel="stylesheet" type="text/.css')}}" media="screen"/>
     <!-- owl carousel -->
     <link rel="stylesheet" href="{{asset('public/admin/css/owl.carousel.css')}}" type="text/.css')}}">
 	<link href="{{asset('public/admin/css/jquery-jvectormap-1.2.2.css')}}" rel="stylesheet">
